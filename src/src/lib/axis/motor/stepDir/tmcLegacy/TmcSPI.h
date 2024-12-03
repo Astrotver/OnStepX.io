@@ -10,7 +10,7 @@
 #include "../../../../softSpi/SoftSpi.h"
 
 #ifndef TMC5160_DRIVER_RSENSE
-  #define TMC5160_DRIVER_RSENSE (0.075)
+  #define TMC5160_DRIVER_RSENSE (0.033) //(0.075)
 #endif
 
 #ifndef TMC2130_DRIVER_RSENSE
