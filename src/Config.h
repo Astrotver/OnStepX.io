@@ -22,7 +22,7 @@
 
 // PINMAP ------------------------------------------------- see https://onstep.groups.io/g/main/wiki/Configuration_Controller#PINMAP
 #ifndef PINMAP
-#define PINMAP                        BTT_SKR_PRO //    OFF, Choose from: MiniPCB, MiniPCB2, MaxPCB2, MaxESP3, CNC3, STM32Blue,      <-Req'd
+#define PINMAP                        OFF //    OFF, Choose from: MiniPCB, MiniPCB2, MaxPCB2, MaxESP3, CNC3, STM32Blue,      <-Req'd
                                           //         MaxSTM3, FYSETC_S6_2, etc.  Other boards and more info. in ~/src/Constants.h
 #endif
 
@@ -149,7 +149,7 @@
 #define MOUNT_ENABLE_IN_STANDBY       OFF //    OFF, ON Enables mount motor drivers while in standby.                         Infreq
 
 // TIME AND LOCATION ---------------------------------------------- see https://onstep.groups.io/g/main/wiki/Configuration_Mount#TLS
-#define TIME_LOCATION_SOURCE          DS3231 //    OFF, DS3231 (I2C,) SD3031 (I2C,) TEENSY (T3.2 etc,) GPS, or NTP source.       Option
+#define TIME_LOCATION_SOURCE          GPS //    OFF, DS3231 (I2C,) SD3031 (I2C,) TEENSY (T3.2 etc,) GPS, or NTP source.       Option
                                           //         Provides Date/Time, and if available, PPS & Lat/Long also.
 #define TIME_LOCATION_PPS_SENSE       OFF //    OFF, HIGH senses PPS (pulse per second,) signal rising edge, or use LOW for   Option
                                           //         falling edge, or use BOTH for rising and falling edges.

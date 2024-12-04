@@ -29,8 +29,9 @@
 
 #include "../PPS.h"
 #include "../../tasks/OnTask.h"
+#include "../../TinyGPSPlus/src/TinyGPS++.h"
 
-#include <TinyGPS++.h> // https://github.com/mikalhart/TinyGPSPlus/releases
+//#include <TinyGPS++.h> // https://github.com/mikalhart/TinyGPSPlus/releases
 TinyGPSPlus gps;
 
 // provide for using software serial

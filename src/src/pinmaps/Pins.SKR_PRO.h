@@ -21,7 +21,7 @@
   #define SERIAL_C              HardSerial
   #define SERIAL_C_RX           PA10
   #define SERIAL_C_TX           PA9
- // #define SERIAL_C              Serial1
+  //#define SERIAL_C              Serial1
 #endif
 
 // Connector Labeled I2C uses PB6 (SCL) and PB7 (SDA) which are forced in the HAL
